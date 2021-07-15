@@ -1,10 +1,13 @@
+
 from flask import Flask
 from flask_restful import Api
+
 from authz.config import Config
-from authz import resource
+
 
 api = Api()
 
+from authz import resource
 
 def create_app():
     app = Flask(__name__)
