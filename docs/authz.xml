@@ -38,7 +38,7 @@
     <type label="Bit" length="0" sql="bit" quote=""/>
   </group>
 </datatypes><table x="350" y="237" name="user">
-<row name="id" null="0" autoincrement="1">
+<row name="id" null="0" autoincrement="0">
 <datatype>VARCHAR(68)</datatype>
 <default>'NULL'</default></row>
 <row name="username" null="0" autoincrement="0">
